@@ -1,0 +1,17 @@
+from enum import Enum
+
+AXIS_LIMIT = 100
+SAMPLING_RATE = 33203
+GRID_SIZE = 2000
+SPEED_OF_SOUND = 343
+DRONE_FREQ = 50
+PHYLLOTAXIS_D = 9.67
+PHYLLOTAXIS_Z = 0
+PHYLLOTAXIS_S = 0
+MAX_CHOICES_FOR_NOISE_COORDS = 10
+SAMPLES_FOR_PLOT = 1000
+
+class MicArrangements(Enum):
+    SPIRAL = 'spiral'
+    LINEAR = 'linear'
+    LINEAR_SAME_SIZE = 'linear_resized'
